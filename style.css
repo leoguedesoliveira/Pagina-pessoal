@@ -39,34 +39,29 @@ body{
 }
 
 .primeira-secao{
-    display: flex;
-    align-items: center;
-    background-color: #535353; 
-    background-image: url("img/background.png");
-    border-radius: 20px;
-
-    min-width: 320px;
-    max-width: 1325px;
-    height: 700px;
-    padding: 20px;
+    max-width: 100%;
     margin: auto;
+    
+    background-color: #535353;
+    background: url('img/background.png');
+}
+
+.primeira-secao::before, .primeira-secao::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .primeira-secao-conteudo{
-    display: flex;
-    flex-direction: column;
     color: #ffffff;
-    align-items: center;
-    width: 100%;
-    height: 250px;
-    margin-bottom: 200px;
+    width: 40%;
+    float: left;
+    padding: 0 10px;
+    margin-left:65px ;
+    margin-top: 140px;
 }
 
 .primeira-secao-conteudo h1{
-    width: 506px;
-    height: 105px;
-    left: 148px;
-    top: 228px;
     font-family: Heebo;
     font-style: normal;
     font-weight: bold;
@@ -75,10 +70,6 @@ body{
 }
 
 .primeira-secao-conteudo p{
-    width: 497px;
-    height: 66px;
-    left: 148px;
-    top: 373px;
     font-family: Heebo;
     font-style: normal;
     font-weight: normal;
@@ -88,10 +79,11 @@ body{
 }
 
 .imagem{
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
-    margin-bottom: 200px;
+    width: 40%;
+    float: left;
+    padding: 0 10px;
+    margin-left: 200px;
+    margin-top: 140px;
 }
 
 .imagem img{
@@ -180,3 +172,54 @@ body{
 }
 
 
+
+
+@media (min-width:0px) and (max-width:429px){
+    .primeira-secao{
+        background: url("img/background\ 720width.png");
+    }
+    .primeira-secao-conteudo{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .imagem{
+        width: 250px;
+        margin-left: 5px ;
+        margin-top:30px;
+    }
+
+}
+
+@media (min-width:430px) and (max-width:750px){
+    .primeira-secao-conteudo{
+        width: 450px;
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    .imagem{
+        width: 250px;
+        margin-left: 10px ;
+        margin-top:130px;
+    }
+
+}
+
+@media (min-width:751px){
+    .primeira-secao{
+        background: url("img/background\ 1440width.png");
+    }
+
+    .primeira-secao-conteudo{
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 140px;
+       
+    }
+    .imagem{
+        width: 250px;
+        margin-left: 100px ;
+        margin-top: 130px;
+    }
+}
