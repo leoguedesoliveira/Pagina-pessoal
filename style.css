@@ -11,17 +11,6 @@ body{
     background: #323232;
 }
 
-.retangulo{
-    width: 100%;
-    height: 19px;
-    background-color: #075200;
-}
-.retangulo2{
-    width: 100%;
-    height: 19px;
-    background-color: #0d8502;
-}
-
 .cabecalho{
     width: 100%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -42,6 +31,7 @@ body{
     font-size: 18px;
     color: #ffffff;
     transition: 0.5s;
+    padding-right: 20px;
 }
 
 .menu a:hover{
@@ -51,17 +41,25 @@ body{
 .primeira-secao{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 100%px;
-    height: 500px;
     background-color: #535353; 
     background-image: url("img/background.png");
+    border-radius: 20px;
+
+    min-width: 320px;
+    max-width: 1325px;
+    height: 700px;
+    padding: 20px;
+    margin: auto;
 }
 
 .primeira-secao-conteudo{
     display: flex;
     flex-direction: column;
     color: #ffffff;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 200px;
 }
 
 .primeira-secao-conteudo h1{
@@ -89,20 +87,15 @@ body{
     margin-top: 40px;
 }
 
-.primeira-secao-conteudo button:hover{
-    background: #535353;
-    color: #000000;
-}
-
 .imagem{
-    width: 300px;
-    height: 300px;
-    margin-left: 80px;
-
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 200px;
 }
 
 .imagem img{
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
     border: 10px solid rgb(7, 83, 0);
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
@@ -149,17 +142,6 @@ body{
     align-items: flex-start;
     gap: 25px;
     padding-bottom: 10px;
-    border: 1px solid black;
-    
-}
-
-.linha{
-    width: 1px;
-    height: 200px;
-    background: #FFFFFF;
-    margin-top: 25px;
-    box-shadow: 2px 0px 5px #000;
-    -webkit-box-shadow:-1px -1px 10px #000;
     
 }
 
@@ -181,12 +163,14 @@ body{
 }
 
 .espaco-barra{
-    display:block;
+    display:flex;
     margin-left: 10px;
+    align-items: center;
 }
 
 .espaco-barra p{
     text-align: center;
+    margin-left: 10px;
 }
 
 .espaco-barra img{
