@@ -318,6 +318,10 @@ footer img{
     width: 35px;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 footer p{
     font-family: 'Heebo', sans-serif;
 }
