@@ -126,10 +126,7 @@ body{
     margin: 20px;
     align-items: center;
     float: left;
-<<<<<<< HEAD
-=======
   
->>>>>>> 06e9104d242f38f10aaecf22949001c55ff2f699
 }
 
 
@@ -317,6 +314,14 @@ footer{
     text-align: center;
 }
 
+footer img{
+    width: 35px;
+}
+
+footer p{
+    font-family: 'Heebo', sans-serif;
+}
+
 
 
 
@@ -350,9 +355,9 @@ footer{
 
     .barra-progresso{
         margin-left: 0;
-<<<<<<< HEAD
+
         width: 200px;
-=======
+
         width: 290px;
     }
 
@@ -406,7 +411,7 @@ footer{
 
     .conteudo-trabalhos{
         width: 300px;
->>>>>>> 06e9104d242f38f10aaecf22949001c55ff2f699
+
     }
 
     .titulo-certificados{
@@ -418,6 +423,8 @@ footer{
         width: 300px;
         margin: auto;
     }
+
+
 
 }
 
