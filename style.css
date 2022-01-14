@@ -30,12 +30,17 @@ body{
     font-family: 'Heebo', sans-serif;
     font-size: 18px;
     color: #ffffff;
-    transition: 0.5s;
+    transition: 0.3s;
     padding-right: 20px;
+    display: block;
 }
 
 .menu a:hover{
     color: #202020;
+}
+
+.btn-mobile{
+    display: none;
 }
 
 .main{
@@ -47,6 +52,18 @@ body{
     padding: 10px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.45));
     background-color:#323232;
+}
+
+.btnfloat button{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: #126b00;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        float: right;
 }
 
 .primeira-secao{
@@ -523,6 +540,16 @@ footer p{
     }
 
 
+}
+
+@media(max-width:600px){
+    .btn-mobile{
+        display: block;
+    }
+
+    .menu a{
+        display: none;
+    }
 }
 
 

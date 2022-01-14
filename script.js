@@ -1,3 +1,0 @@
-function Event(){
-    alert("TESTE")
-}
