@@ -453,6 +453,50 @@ footer p{
         width: 30%;
     }
 
+    .area-certificados{
+        padding-left: 140px;
+    }
+
+    .descricao-projeto{
+        width: 200px;
+
+    }
+
+    .titulo-portfolio{
+        width: 300px;
+        margin: auto;
+    }
+
+    .conteudo-trabalhos{
+        width: 200px;
+    }
+
+    .projeto{
+        width: 300px;
+    }
+
+    .projeto img{
+        width: 280px;
+    }
+
+    .titulo-certificados{
+        width: 300px;
+        margin: auto;
+    }
+
+    .area-certificados{
+        max-width: 90%;
+        padding-left: 50px;
+    }
+
+
+    .certificado img{
+        width: 250px;
+        float: left;
+        margin: 5px;
+    
+    } 
+
 }
 
 
