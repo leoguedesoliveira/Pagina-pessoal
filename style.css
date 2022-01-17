@@ -545,10 +545,21 @@ footer p{
 @media(max-width:600px){
     .btn-mobile{
         display: block;
+        margin-right: 15px;
     }
 
     .menu a{
-        display: none;
+        /*display: none;*/
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #126b00;
+        display: block;
+    }
+
+    .menu.active a{
+        display: flex;
     }
 }
 
